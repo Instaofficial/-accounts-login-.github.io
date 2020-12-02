@@ -1,70 +1,66 @@
 body{
-	margin: 0;
-	padding: 0;
-	display: flex;
-	min-height: 100vh;
-	align-items: center;
-	justify-content: center;
-	background: linear-gradient(#fb009f,#fe0202);
+	margin: 0px;
+	padding: 0px;
+	background-color: #f0f2f5;
 }
 .container{
-	text-align: center;
+	width: 25%;
+	margin:auto;
 }
 .text{
 	color: #fff;
 	letter-spacing: 1px;
 	margin:10px;
 }
-.page{
-	width: 350px;
-	background: #fff;
-	border-radius: 5px;
-	padding-bottom: 15px;
 
-}
 .title{
-	padding: 30px 0;
 	text-transform: capitalize;
-	font-size: 25px;
+	font-size: 50px;
 	font-family: 'Pacifico', cursive;
+	margin:20px;
+	border:solid 1px #a49999;
+	padding: 19px;
+	text-align: center;
+	border: #dddfe2;
+
 }
 .box{
-	width: 75%;
-	display: flex;
-	flex-direction: column;
-	margin-left: 150px; 
-	transform: translate(-50%);	
-
+	border:solid 1px #a49999;
+	border: #dddfe2;
+	margin: -115px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .form-control
 {
 	width: 310px;
-	height: 18px;
+	height: 30px;
 	display: block;
-	margin-bottom: 5px;
-	margin-left: 1px;
+	margin-bottom: 12px;
 }
 .btn-primary
 {
 	width: 320px;
-	height: 28px;
+	height: 30px;
 	border: 0;
 	margin-left: 0px;
 	color: #fff;
-	background: #3b5998;
+	background: #0195F7;
+	margin-top: 8px;
 }
 
 .login{
 	width: 310px;
-	height: 22px;
+	height: 30px;
 	border: 0;
 	margin-left: 22px;
 	color: #fff;
-	background: #3b5998;	
+	background-color: #0195F7;
+	padding-top: 10px;	
 }
 form .option{
 	color: #5a5a5a;
-	margin: 10px 0;
+	margin: 0px 0;
 	font-weight: bold;
 	position: relative;
 }
@@ -74,7 +70,7 @@ form .option:before{
 	width: 140px;
 	height: 2px;
 	background: #b6b6b6;
-	left: 0px;
+	right: 60px;
 	top: 50%;
 	transform: translateY(-50%);
 	border-radius: 50px;
@@ -85,9 +81,24 @@ form .option:after{
 	width: 140px;
 	height: 2px;
 	background: #b6b6b6;
-	right: 0px;
+	left: 60px;
 	top: 50%;
 	transform: translateY(-50%);
 	border-radius: 50px;
 }
+.wrapper a{
+	color: #1E8DD5;
+	
 
+}
+.link a{
+	color: #1E8DD5;
+	font-style: bold;
+	margin-left: 200px;
+	padding-bottom: -4px;
+}
+p {
+	margin: -18px;
+	margin-top: 5px;
+
+}
