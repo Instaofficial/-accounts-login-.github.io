@@ -56,7 +56,8 @@ body{
 	margin: -20px;
 	color: #fff;
 	background-color: #0195F7;
-	padding-top: 10px;	
+	padding-top: 20px;	
+
 }
 form .option{
 	color: #5a5a5a;
@@ -94,7 +95,7 @@ form .option:after{
 .link a{
 	color: #1E8DD5;
 	font-style: bold;
-	margin-left: 195px;
+	margin-left: 188px;
 	padding-bottom: -4px;
 }
 p {
